@@ -1,0 +1,22 @@
+{
+  "name": "bizzare-string-incrementer-nishantbisen09",
+  "version": "1.0.0",
+  "description": "Given a bizarre string, increment the string by 1. Refer to the test cases for more info.",
+  "main": "bizarreStringIncrementer.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pesto-students/bizzare-string-incrementer-nishantbisen09.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pesto-students/bizzare-string-incrementer-nishantbisen09/issues"
+  },
+  "homepage": "https://github.com/pesto-students/bizzare-string-incrementer-nishantbisen09#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
