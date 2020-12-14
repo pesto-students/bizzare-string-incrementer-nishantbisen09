@@ -1,5 +1,7 @@
+const ERROR_MESSAGE = "Invalid input!";
+
 const bizarreStringIncrementer = (bizarreString) => {
-  if (typeof bizarreString !== "string") throw "Invalid input!";
+  if (typeof bizarreString !== "string") throw ERROR_MESSAGE;
   const splittedInput = bizarreString.split("");
   const trailingNumber = getTrailingNumber(splittedInput);
   const preceedingString = bizarreString.replace(trailingNumber, "");
